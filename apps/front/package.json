@@ -1,18 +1,29 @@
 {
   "name": "front",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ./pages"
   },
+  "prettier": "tools/prettier.config.js",
   "dependencies": {
-    "functions": "workspace:*"
-  },
-  "devDependencies": {
-    "typescript": "^4.9.3",
-    "vite": "^4.0.0"
+    "tools": "workspace:*",
+    "prettier": "^2.8.1",
+    "@next/font": "13.0.7",
+    "@types/node": "18.11.16",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.7",
+    "next": "13.0.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.56.2",
+    "typescript": "4.9.4",
+    "ui": "workspace:*"
   }
 }
