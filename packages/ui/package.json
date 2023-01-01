@@ -6,8 +6,9 @@
   "main": "src/index.tsx",
   "scripts": {
     "format": "prettier --write ./src",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "dev": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "storybook": "storybook dev -p 6006"
   },
   "prettier": "tools/prettier.config.js",
   "dependencies": {
@@ -29,6 +30,7 @@
     "sass": "^1.57.1",
     "storybook": "^7.0.0-beta.17",
     "typescript": "^4.9.3",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "prop-types": "^15.8.1"
   }
 }
