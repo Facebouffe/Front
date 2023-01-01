@@ -2,8 +2,6 @@
 
 ## Initialisation du projet (Développement)
 
-----
-
 Pour initialiser le projet en vue de son développement, veuillez suivre les étapes ci-dessous :
 
 1. Cloner le projet en utilisant la commande `git clone` ou via votre IDE
