@@ -1,0 +1,25 @@
+.Rating {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  inline-size: fit-content;
+}
+
+.Rating-interactive {
+  background-image: url("src/Icons/star-line.svg");
+}
+
+.Rating-star-half-fill {
+  background-image: url("src/Icons/star-half-fill.svg");
+}
+
+.Rating-star-fill {
+  background-image: url("src/Icons/star-fill.svg");
+
+}
+
+.Rating-star-line {
+  background-image: url("src/Icons/star-line.svg");
+}
