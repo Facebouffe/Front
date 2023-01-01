@@ -1,3 +1,50 @@
 .Button {
-  background-color: gray;
+  padding: 0.5rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  border: 0;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+
+  &:hover {
+
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.Button-primary {
+  // styles pour les boutons de variante "primary"
+  background-color: #444;
+  color: white;
+}
+
+.button-secondary {
+  // styles pour les boutons de variante "secondary"
+  background-color: white;
+  color: black;
+}
+
+.Button-tertiary {
+  // styles pour les boutons de variante "tertiary"
+  background-color: yellow;
+  color: black;
+}
+
+.Button-small {
+  // styles pour les boutons de taille "small"
+  font-size: 1rem;
+}
+
+.Button-medium {
+  // styles pour les boutons de taille "medium"
+}
+
+.Button-large {
+  // styles pour les boutons de taille "large"
 }
