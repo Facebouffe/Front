@@ -7,8 +7,7 @@
   "scripts": {
     "format": "prettier --write ./src",
     "dev": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "storybook": "storybook dev -p 6006"
+    "build-storybook": "storybook build"
   },
   "prettier": "tools/prettier.config.js",
   "dependencies": {
