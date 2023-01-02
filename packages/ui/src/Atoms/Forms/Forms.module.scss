@@ -1,12 +1,22 @@
-.Forms{
-  width: 308px;
-  height: 30px;
-  left: 0px;
-  top: 70px;
-
+.Forms {
   background: #E7E7E7;
-  border-radius: 28px;}
+  border-radius: 28px;
+  &:hover{
+    cursor: text;
+  }
+}
 
-.Forms.Inscription{
-  background: antiquewhite;
+
+.Forms-small {
+  // styles pour les input de taille "small"
+  width: 234px;
+  height: 37px;
+  font-size: 1rem;
+
+}
+
+.Forms-medium{
+  background-color: #66bf3c;
+  width: 604px;
+  height: 307px;
 }
