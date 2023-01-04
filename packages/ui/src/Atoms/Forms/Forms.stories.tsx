@@ -5,12 +5,6 @@ export default {
     title: "Atoms/Forms",
     component: Forms,
     argTypes: {
-        variant: {
-            type: {name: "string", required: false},
-            description: 'Input of Forms',
-            defaultValue: {type: 'select'},
-            control: {type: 'select'},
-        },
         size: {
             type: {name: "string", required: false},
             description: 'The size of the input.',
@@ -33,27 +27,4 @@ export const Nom = forms.bind({});
 Nom.args = {
     children: "Nom ...",
 };
-export const Prenoms = forms.bind({});
-Prenoms.args = {
-    children: "Prénoms ...",
-};
 
-export const AdresseMail = forms.bind({});
-AdresseMail.args = {
-    children: "Adresse mail ...",
-};
-
-export const MotDePasse = forms.bind({});
-MotDePasse.args = {
-    children: "Mot de passe ...",
-};
-
-export const AdressePost = forms.bind({});
-AdressePost.args = {
-    children: "Adresse postale ...",
-};
-
-export const SiretNum = forms.bind({});
-SiretNum.args = {
-    children: "Numéro de siret ...",
-};

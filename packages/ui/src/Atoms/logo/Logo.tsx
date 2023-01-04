@@ -1,7 +1,6 @@
-import logo from './logo.jpg'
+import logo from './logo.svg'
 import Styles from './Logo.module.scss'
 import * as React from "react";
-import {Forms} from "../Forms/Forms";
 
 type LogoSize = 'small' | 'medium' | 'large'
 
@@ -11,7 +10,6 @@ export interface LogoProps
     children?: React.ReactNode ;
 }
 export const Logo=React.forwardRef<HTMLImageElement,LogoProps>(
-    // @ts-ignore
     (
         {
             size = 'medium',

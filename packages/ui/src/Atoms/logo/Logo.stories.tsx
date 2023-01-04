@@ -18,4 +18,4 @@ export default {
 
 const logo :Story <typeof Logo>= (args) => <Logo {...args}/>
 
-export const LogoConnexion = logo.bind({});
+export const Logosvg = logo.bind({});

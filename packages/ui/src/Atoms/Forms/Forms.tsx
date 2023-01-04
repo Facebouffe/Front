@@ -1,15 +1,14 @@
 import Styles from "./Forms.module.scss";
 import * as React from "react";
 
+
 type FormsSize = 'small' | 'medium' | 'large'
-type FormsVariant = 'primary' | 'secondary' | 'tertiary';
 
 // @ts-ignore
 export interface FormsProps
     extends React.ComponentPropsWithoutRef<'input'> {
-    variant?: FormsVariant;
     size?: FormsSize;
-    children?: React.ReactNode ;
+    children?: string ;
 }
 
 // export type FormsProps = React.ComponentPropsWithoutRef<'textarea'> &
@@ -19,7 +18,6 @@ export interface FormsProps
 export const Forms = React.forwardRef<HTMLInputElement & HTMLFormElement, FormsProps>(
     (
         {
-            variant = 'primary',
             size = 'medium',
             children,
             className,
@@ -27,15 +25,12 @@ export const Forms = React.forwardRef<HTMLInputElement & HTMLFormElement, FormsP
         }, ref
     ) => {
         const formsClasses = `${Styles.Forms} 
-        ${Styles[`Forms-${variant}`]} 
         ${Styles[`Forms-${size}`]}`;
-
 
         return (
             <form >
                 <input
                     ref={ref}
-                    // @ts-ignore
                     className={formsClasses} placeholder={children}
                     {...props}  />
             </form>
