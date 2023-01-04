@@ -6,17 +6,17 @@ type FormsVariant = 'primary' | 'secondary' | 'tertiary';
 
 // @ts-ignore
 export interface FormsProps
-    extends React.ComponentPropsWithoutRef<'text'> {
+    extends React.ComponentPropsWithoutRef<'input'> {
     variant?: FormsVariant;
     size?: FormsSize;
-    children?: React.ReactNode;
+    children?: React.ReactNode ;
 }
 
 // export type FormsProps = React.ComponentPropsWithoutRef<'textarea'> &
 //     React.ComponentPropsWithoutRef<'input'> &
 //     FormsProps;
 
-export const Forms = React.forwardRef<HTMLTextAreaElement & HTMLInputElement, FormsProps>(
+export const Forms = React.forwardRef<HTMLInputElement & HTMLFormElement, FormsProps>(
     (
         {
             variant = 'primary',
@@ -29,13 +29,16 @@ export const Forms = React.forwardRef<HTMLTextAreaElement & HTMLInputElement, Fo
         const formsClasses = `${Styles.Forms} 
         ${Styles[`Forms-${variant}`]} 
         ${Styles[`Forms-${size}`]}`;
+
+
         return (
-                <text
-                  ref={ref}
-                  className={formsClasses}
-                  {...props}>
-                {children}
-            </text>
+            <form >
+                <input
+                    ref={ref}
+                    // @ts-ignore
+                    className={formsClasses} placeholder={children}
+                    {...props}  />
+            </form>
         )
     }
 );
