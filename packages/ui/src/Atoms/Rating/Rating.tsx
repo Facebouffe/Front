@@ -1,5 +1,6 @@
 import Styles from './Rating.module.scss'
 import * as React from "react";
+import { FaStar, FaStarHalfAlt} from "react-icons/fa";
 
 export interface RatingProps
     extends Omit<React.ComponentPropsWithoutRef<'div'>, 'onChange'> {
