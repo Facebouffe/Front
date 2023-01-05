@@ -20,7 +20,7 @@ export default {
 } as Meta;
 
 const Template: Story = (args) => (
-    <div style={{ width: 1500, display: 'flex', justifyContent: 'center'}}>
+    <div style={{ display: 'flex', justifyContent: 'center'}}>
         <Header variant={"user"}/>
     </div>
 );

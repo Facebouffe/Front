@@ -1,16 +1,18 @@
 .Header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   gap: 1em;
 }
 
-.Header-Logo {
-
+.HeaderLogo {
+  width: auto;
+  height: auto;
 }
 
-.Header-Navigation {
+.HeaderNavigation {
   display: flex;
   flex-direction: row;
-  gap: 20em;
+
 }

@@ -2,6 +2,7 @@ import Styles from './Header.module.scss';
 import * as React from "react";
 import {Logo} from "../../Atoms/logo/Logo";
 import {UserNavigation} from "../../Molecules/User/UserNavigation/UserNavigation";
+import {MdMenu} from "react-icons/md"
 
 type HeaderVariant = 'user' | 'restaurant' | 'deliverer';
 
@@ -14,10 +15,11 @@ export const Header = ({
     }:HeaderProps) => {
     return (
         <div className={Styles.Header}>
-            <Logo size={"large"} className={Styles.HeaderLogo}/>
-            <div style={{background: 'red'}}>
+            <Logo size={"large"}/>
+            <div className={Styles.HeaderNavigation}>
                 {variant === "user" ? <UserNavigation/> : <UserNavigation/>}
             </div>
+            <MdMenu className={Styles.HeaderLogo}></MdMenu>
         </div>
     )
 }
