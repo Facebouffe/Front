@@ -1,3 +1,27 @@
-.Forms{
-  background: aquamarine;
+.Forms {
+  background: #E7E7E7;
+  border-radius: 28px;
+  font-weight: normal;
+  font-family: 'Inter', sans-serif;
+
+  &:hover {
+    cursor: text;
+  }
+}
+
+
+.Forms-small {
+  // styles pour les input de taille "small"
+  font-size: 1rem;
+}
+
+.Forms-medium {
+  // styles pour les input de taille "medium"
+  width: 234px;
+  height: 37px;
+  font-size: 16px;
+}
+
+.Forms-large{
+  // styles pour les input de taille "large"
 }
