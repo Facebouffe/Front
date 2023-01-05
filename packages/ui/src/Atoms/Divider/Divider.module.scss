@@ -1,0 +1,21 @@
+.Divider {
+  color: white;
+  display: flex;
+  align-items: center;
+  inline-size: 100%;
+
+  &::after, &::before {
+    content: '';
+    background-color: white;
+  }
+}
+
+.Divider-vertical {
+  flex-direction: column;
+  block-size: 100%;
+
+  &::after, &::before {
+    inline-size: 1px;
+    block-size: 100%;
+  }
+}
