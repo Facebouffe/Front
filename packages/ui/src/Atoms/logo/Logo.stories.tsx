@@ -8,7 +8,7 @@ export default {
     argTypes: {
         size: {
             type: {name: 'string', required: false},
-            descrption: 'The logo of Face Bouffe',
+            description: 'The logo of Face Bouffe',
             defaultValue:'medium',
             control: {type: 'select'},
             options:['small', 'medium', 'large']
