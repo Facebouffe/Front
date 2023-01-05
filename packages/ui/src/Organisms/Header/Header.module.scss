@@ -1,0 +1,16 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1em;
+}
+
+.Header-Logo {
+
+}
+
+.Header-Navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 20em;
+}
