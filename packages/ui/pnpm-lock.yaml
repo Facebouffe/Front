@@ -15,6 +15,7 @@ specifiers:
   prop-types: ^15.8.1
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-icons: ^4.7.1
   sass: ^1.57.1
   storybook: ^7.0.0-beta.17
   typescript: ^4.9.3
@@ -23,6 +24,7 @@ specifiers:
 dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.7.1_react@18.2.0
 
 devDependencies:
   '@storybook/addon-essentials': 7.0.0-beta.17_biqbaboplfbrettd7655fr4n2y
@@ -6254,6 +6256,14 @@ packages:
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.1.0
     dev: true
+
+  /react-icons/4.7.1_react@18.2.0:
+    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /react-inspector/6.0.1_react@18.2.0:
     resolution: {integrity: sha512-cxKSeFTf7jpSSVddm66sKdolG90qURAX3g1roTeaN6x0YEbtWc8JpmFN9+yIqLNH2uEkYerWLtJZIXRIFuBKrg==}
