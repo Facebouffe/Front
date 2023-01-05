@@ -8,7 +8,6 @@ export interface DividerProps
 }
 export const Divider = ({
     orientation = 'horizontal',
-    ...props
     }:DividerProps) => {
     const DividerClass = `${Styles.Divider}  
         ${Styles[`Divider-${orientation}`]}`;
