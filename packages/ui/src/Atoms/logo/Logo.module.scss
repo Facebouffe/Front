@@ -1,3 +1,7 @@
+.Logo {
+
+}
+
 .Logo-small {
   // style pour le logo de taille "small"
   height: 24.4px;
@@ -14,4 +18,12 @@
   // style pour le logo de taille "large"
   height: 64px;
   width: 200px;
+}
+
+.Logo-grey {
+
+}
+
+.Logo-white {
+  filter: brightness(100);
 }

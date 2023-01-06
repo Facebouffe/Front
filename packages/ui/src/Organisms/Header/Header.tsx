@@ -15,7 +15,7 @@ export const Header = ({
     }:HeaderProps) => {
     return (
         <div className={Styles.Header}>
-            <Logo size={"large"}/>
+            <Logo size={"large"} variant={"white"}/>
             <div className={Styles.HeaderNavigation}>
                 {variant === "user" ? <UserNavigation/> : <UserNavigation/>}
             </div>
