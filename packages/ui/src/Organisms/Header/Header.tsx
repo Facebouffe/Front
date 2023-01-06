@@ -19,7 +19,7 @@ export const Header = ({
             <div className={Styles.HeaderNavigation}>
                 {variant === "user" ? <UserNavigation/> : <UserNavigation/>}
             </div>
-            <MdMenu className={Styles.HeaderLogo}></MdMenu>
+            <MdMenu className={Styles.HeaderMenu} size={40}></MdMenu>
         </div>
     )
 }

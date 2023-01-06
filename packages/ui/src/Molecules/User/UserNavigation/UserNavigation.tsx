@@ -6,9 +6,9 @@ import Styles from './UserNavigation.module.scss'
 export const UserNavigation = () => {
     return (
         <div className={Styles.UserNavigation}>
-            <a href={"/"}><MdOutlineHome size={50} color={"white"}/></a>
+            <a href={"/"}><MdOutlineHome size={40} color={"white"}/></a>
             <Divider orientation={"vertical"}></Divider>
-            <a href={"/about"}><MdRestaurant size={50} color={"white"}></MdRestaurant></a>
+            <a href={"/about"}><MdRestaurant size={40} color={"white"}></MdRestaurant></a>
         </div>
     )
 }

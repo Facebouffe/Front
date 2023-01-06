@@ -11,8 +11,7 @@ export const Divider = ({
     }:DividerProps) => {
     const DividerClass = `${Styles.Divider}  
         ${Styles[`Divider-${orientation}`]}`;
-    return <div className={DividerClass}
-        aria-orientation={orientation}>
+    return <div className={DividerClass}>
     </div>
 }
 

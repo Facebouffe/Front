@@ -1,18 +1,19 @@
 .Header {
   display: flex;
-  flex-direction: row;
+  position: sticky;
   justify-content: space-between;
-  width: 100%;
-  gap: 1em;
+  padding: 15px 20px;
+  background-color: #444444;
+  box-shadow: 0 5px 8px -9px rgba(0,0,0,0.75);
 }
 
-.HeaderLogo {
-  width: auto;
-  height: auto;
+.HeaderMenu {
+  height: 40px;
+  color: white;
 }
 
 .HeaderNavigation {
   display: flex;
   flex-direction: row;
-
+  align-self: center;
 }
