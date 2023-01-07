@@ -28,7 +28,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
             <button
                 ref={ref}
                 className={buttonClasses}
-            {...props}>
+            {...props} >
                 {children}
         </button>
         )

@@ -1,0 +1,29 @@
+.Category {
+  background: #E7E7E7;
+  border-radius: 19px;
+  font-family: 'Inter', sans-serif;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.Category-small {
+  // styles pour les boutons de taille "small"
+  width: 83px;
+  height: 30px;
+}
+
+.Category-medium {
+  // styles pour les boutons de taille "medium"
+  width: 96px;
+  height: 36px;
+
+}
+
+.Category-large {
+  // styles pour les boutons de taille "large"
+  width: 116px;
+  height: 43px;
+}
+
